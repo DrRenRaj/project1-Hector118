@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_nav"
+    app:startDestination="@id/home_nav">
+
+    <fragment
+        android:name="com.example.notes_reminder.HomeFragment"
+        android:label="/@home"
+        tools:layout="@layout/fragment_home"
+        android:id="@+id/home_nav">
+    </fragment>
+
+
+
+    <fragment
+        android:id="@+id/settings"
+        android:name="com.example.notes_reminder.SettingsFragment"
+        android:label="/@settings"
+        tools:layout="@layout/fragment_settings" />
+
+
+</navigation>
