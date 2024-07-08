@@ -6,4 +6,21 @@
     </style>
 
     <style name="Theme.Project1_S24" parent="Base.Theme.Project1_S24" />
+    <style name="notesview"
+        parent="Base.TextAppearance.AppCompat.Large" >
+        <item name="android:padding">18dp</item>
+    </style>
+    <style name="notesheader"
+        parent="Base.TextAppearance.AppCompat.Display1" >
+        <item name="android:padding">18dp</item>
+    </style>
+
+    <style name="Theme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="Theme.NavigationDrawer.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.Navigation.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
